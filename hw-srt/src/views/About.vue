@@ -3,8 +3,9 @@
 <script setup></script>
 
 <template>
+  <router-view />
   <div class="login">
-    <h2>Login</h2>
+    <h2>about</h2>
     <form @submit.prevent="login">
       <div>
         <label for="username">Username:</label>
